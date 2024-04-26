@@ -61,7 +61,7 @@ const createWindow = () => {
     //win.webContents.openDevTools()
     
     win.webContents.on('did-finish-load', () => {
-        /*fs.readFile(path.join(__dirname, 'styles.css'), 'utf-8', (err, data) => {
+        fs.readFile(path.join(__dirname, 'styles.css'), 'utf-8', (err, data) => {
             if (err) {
                 console.error('An error while trying to read a file occured ', err);
                 return;
@@ -70,7 +70,7 @@ const createWindow = () => {
             console.log('Inserting css')
             win.webContents.insertCSS(data)
         });
-        fs.readFile(path.join(__dirname, 'notifications_hook.js'), 'utf-8', (err, data) => {
+        /*fs.readFile(path.join(__dirname, 'notifications_hook.js'), 'utf-8', (err, data) => {
             if (err) {
                 console.error('An error while trying to read a file occured ', err);
                 return;
