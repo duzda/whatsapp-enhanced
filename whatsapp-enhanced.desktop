@@ -1,0 +1,14 @@
+[Desktop Entry]
+Categories=Network
+Comment=WhatsApp PWA electron wrapper with enhancements.
+Exec='whatsapp-enhanced' %U
+Icon=[REPO LOCATION]/whatsapp-enhanced/images/io.github.whatsapp-enhanced.svg
+Name=WhatsApp Enhanced
+Name[en_US]=WhatsApp Enhanced
+Path=[REPO LOCATION]/whatsapp-enhanced/out/whatsapp-enhanced-linux-x64
+Terminal=false
+Type=Application
+StartupNotify=true
+StartupWMClass=WhatsApp Enhanced
+Version=1.0
+NoDisplay=false

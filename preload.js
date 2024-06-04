@@ -11,15 +11,7 @@ window.addEventListener('DOMContentLoaded', () => {
     }
 })
 
-/*contextBridge.exposeInMainWorld('darkMode', {
-    toggle: () => ipcRenderer.invoke('dark-mode:toggle'),
-    system: () => ipcRenderer.invoke('dark-mode:system')
-})
-
-contextBridge.exposeInMainWorld('notifications', {
-    push: (title, content, imageURL) => ipcRenderer.invoke('notifications:push', title, content, imageURL)
-})
-
+/*
 contextBridge.exposeInMainWorld('compactMode', {
     enable: () => ipcRenderer.invoke('compact-mode:enable'),
     disable: () => ipcRenderer.invoke('compact-mode:disable'),

@@ -1,6 +1,6 @@
-
+// Forked Messenger enhanced function
 function pollContactsHeader() {
-    let root_el = ""
+    /*let root_el = ""
     try {
         root_el = document.querySelector("[aria-label=\"Thread list\"]").childNodes[0].childNodes[0].childNodes[0].childNodes[1] 
     } catch (error) {
@@ -31,7 +31,8 @@ function pollContactsHeader() {
         document.querySelector("#set_compact_btn").classList.toggle("hidden")
         window.compactMode.disable()
     })
-    console.log("UI hooked")
+    console.log("UI hooked")*/
+    return;
 }
 
 pollContactsHeader()
