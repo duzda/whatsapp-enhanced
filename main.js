@@ -147,6 +147,8 @@ if (!gotTheLock) {
         })
     })
 
+    app.on('second-instance', () => app.focus());
+
     app.on('window-all-closed', () => {
         if (process.platform !== 'darwin') app.quit()
     })
